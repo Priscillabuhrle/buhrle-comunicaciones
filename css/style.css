@@ -1,0 +1,279 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+.fondo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 430px;
+}
+.isotipo{
+  margin-left: -300px;
+  height: 400px;
+}
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 430px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .navbar-fixed nav{
+     height: 70px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*nuevo codigo priscilla
+/*logo*/
+.responsive-img{
+  max-width: 100%;
+}
+
+/* portafolio dos*/
+.carousel-item{
+  border: 9px solid #424242  ;
+}
+.imgcarr{
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 700px;
+   background-size: cover;
+   height: 240px;
+}
+.carr1{
+  margin-top: -4px;
+  color: #f50057 ;
+  font-size: 20px;
+  margin-top: 9px;
+}
+.carousel-item{
+  background-color: white;
+  margin-top: -50px;
+}
+.carousel{
+  height: 500px;
+  margin-top: 20px;
+}
+
+/*servicios*/
+/*lupa*/
+.lupa1{
+  font-size: 50px;
+  color: #ffab00;
+  border: 1px solid #ffab00;
+  border-radius: 5px;
+}
+.lupa1:hover{
+  color:#e65100;
+}
+.lupa2{
+  font-size: 50px;
+  color: #64dd17;
+  border: 1px solid #64dd17;
+  border-radius: 5px;
+}
+.lupa2:hover{
+  color:#1b5e20;
+}
+.lupa3{
+  font-size: 50px;
+  color: #00b0ff;
+  border: 1px solid #00b0ff;
+  border-radius: 5px;
+}
+.lupa3:hover{
+  color:#01579b;
+}
+.precios{
+  font-size: 20px;
+  font-weight: 600;
+  color: #f50057;
+}
+.rojo{
+  color: red;
+  float: right;
+}
+.card-reveal{
+  font-weight: 600;
+}
+.oscuro{
+  font-size: 20px;
+}
+/*portada*/
+.sub{
+  font-weight: 600;
+  color:#f5f5f5;
+}
+#ff{
+  margin-top: 140px;
+}
+/* frases*/
+.frases{
+  font-weight: 600;
+  color:white;
+  
+}
+.boxfrases{
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  z-index: 1;
+}
+/*footer*/
+.telf{
+  color: #64dd17;
+}
+.telf2{
+  color: #f50057;
+}
+.email{
+  color: #ffab00;
+  font-size: 30px;
+}
+.ubicacion{
+  color: red;
+}
+.facebook{
+  color:blue;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: -3px;
+}
+#pau{
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: -11px;
+}
+.metro{
+  margin-left: 12px;
+  display: inline-block;
+}
+#iconmetro{
+  display: inline-block;
+  height: 25px;
+}
+.correo{
+  font-size: 15px;
+}
+#mapa{
+  max-width: 100%;
+  height: 150px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+}
+#cajamapa{
+  border: 4px solid red;
+  margin-top: 30px;
+}
+.cuadrado{
+  color:red;
+}
+/*fondo portada*/
+
+#ff{
+   font-weight: 600;
+}
+#ll{
+   color: #ffab00;
+   font-weight: 600;
+}
+
+ #tamport{
+  height: 600px !important;
+  background-image: url(../img/nuevofondo.png);
+  background-position: center center;
+   background-repeat: no-repeat;
+   max-width: 100%;
+   background-size: cover;
+}
+.texto{
+  margin-top: 150px;
+}
+
+/* cambio de color menu con hover*/
+#amari:hover{
+   background-color: #64dd17;
+}
+#amari a:hover{
+  color: white;
+}
+
+#amari1:hover{
+   background-color: #ffab00;
+}
+#amari1 a:hover{
+  color: white;
+}
+
+#amari2:hover{
+   background-color: #00b0ff;
+}
+#amari2 a:hover{
+  color: white;
+}
+
+#amari3:hover{
+   background-color: #f50057;
+}
+#amari3 a:hover{
+  color: white;
+}
+/*fondo quienes somos*/
+#fondosomos{
+  background-color: #64dd17;
+  font-weight:500;
+  font-size: 20px;
+}
+.blanco{
+  color: white;
+  font-size: 20px;
+}
