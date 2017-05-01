@@ -7169,13 +7169,13 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: white;
   display: block;
   font-size: 14px;
   font-weight: 500;
   height: 48px;
   line-height: 48px;
-  padding: 0 32px;
+  padding: 0 50px;
 }
 
 .side-nav li > a:hover {
@@ -7331,13 +7331,12 @@ input[type=range]:focus::-ms-fill-upper {
   padding: 0;
 }
 
-#sidenav-overlay {
+ #sidenav-overlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 997;
   will-change: opacity;
 }
@@ -8012,7 +8011,7 @@ input[type=range]:focus::-ms-fill-upper {
 .carousel .carousel-item {
   display: none;
   width: 300px;
-  height: 320px;
+  height: 280px;
   position: absolute;
   top: 0;
   left: 0;

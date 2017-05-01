@@ -86,13 +86,13 @@ footer.page-footer {
    background-repeat: no-repeat;
    width: 700px;
    background-size: cover;
-   height: 230px;
+   height: 210px;
 }
 .carr1{
-  margin-top: -4px;
   color: #f50057 ;
   font-size: 20px;
-  margin-top: 9px;
+  margin-top: 5px;
+  margin-bottom: -20px;
 }
 .carousel-item{
   background-color: white;
@@ -102,6 +102,7 @@ footer.page-footer {
   height: 400px;
   margin-top: -5px;
 }
+
 
 /*servicios*/
 /*lupa*/
@@ -280,7 +281,12 @@ footer{
   color: white;
   font-size: 20px;
 }
-
+/*cambiando el menu responsivo*/
+#nav-mobile{
+  background-color: black;
+  padding-top: 40px;
+  width: 210px;
+}
 /***********************************/
 @media only screen and (max-width: 768px ){
   footer h5{
@@ -291,5 +297,11 @@ footer{
   }
   iframe{
      width: 650px;
+  }
+  .carousel{
+      height: 370px;
+  }
+  .boxfrases{
+    margin-top: -40px;
   }
 }
