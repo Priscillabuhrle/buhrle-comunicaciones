@@ -7337,7 +7337,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   right: 0;
   height: 120vh;
-  z-index: 997;
+  z-index: 1;
   will-change: opacity;
 }
 
