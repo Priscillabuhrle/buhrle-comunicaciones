@@ -86,7 +86,7 @@ footer.page-footer {
    background-repeat: no-repeat;
    width: 700px;
    background-size: cover;
-   height: 240px;
+   height: 230px;
 }
 .carr1{
   margin-top: -4px;
@@ -99,8 +99,8 @@ footer.page-footer {
   margin-top: -50px;
 }
 .carousel{
-  height: 500px;
-  margin-top: 20px;
+  height: 400px;
+  margin-top: -5px;
 }
 
 /*servicios*/
@@ -217,6 +217,9 @@ footer.page-footer {
 .cuadrado{
   color:red;
 }
+footer{
+  height: 280px;
+}
 /*fondo portada*/
 
 #ff{
@@ -276,4 +279,17 @@ footer.page-footer {
 .blanco{
   color: white;
   font-size: 20px;
+}
+
+/***********************************/
+@media only screen and (max-width: 768px ){
+  footer h5{
+      text-align: center;
+  }
+  footer{
+    height: 610px;
+  }
+  iframe{
+     width: 650px;
+  }
 }
