@@ -209,7 +209,7 @@ footer.page-footer {
   max-width: 100%;
   height: 150px;
   margin-top: 0px;
-  margin-bottom: -5px;
+  margin-bottom: -6px;
 }
 #cajamapa{
   border: 4px solid red;
@@ -286,6 +286,11 @@ footer{
   background-color: black;
   padding-top: 40px;
   width: 210px;
+}
+#cerrarmenu{
+  color: #00b0ff;
+  font-size: 17px;
+  margin-left: 100px;
 }
 /***********************************/
 @media only screen and (max-width: 768px ){
